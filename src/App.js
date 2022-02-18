@@ -29,6 +29,7 @@ function App() {
               onLogin={loginUser}
               user={user}
               isUsernameTaken={isUsernameTaken}
+              token={token}
             />
           }
         />
